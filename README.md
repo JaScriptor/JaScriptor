@@ -69,14 +69,3 @@
 <img src="https://raw.githubusercontent.com/JaScriptor/JaScriptor/output/snake.svg" alt="Snake animation" />
 
 ###
-
-<picture>
-  <source media="(prefers-color-scheme: light)"
-          srcset="https://raw.githubusercontent.com/JaScriptor/JaScriptor/output/pacman-contribution-graph.svg">
-  <source media="(prefers-color-scheme: dark)"
-          srcset="https://raw.githubusercontent.com/JaScriptor/JaScriptor/output/pacman-contribution-graph-dark.svg">
-  <img alt="Pac-Man contribution graph"
-       src="https://raw.githubusercontent.com/JaScriptor/JaScriptor/output/pacman-contribution-graph.svg">
-</picture>
-
-<!-- ![Trophies](https://github-profile-trophy.vercel.app/?username=JaScriptor&theme=dracula&no-frame=true&title=Stars,Commits,Repositories,Followers&margin-w=10&margin-h=10) -->
