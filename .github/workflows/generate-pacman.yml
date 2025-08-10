@@ -3,10 +3,10 @@ name: Generate Pac-Man contribution graph
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *'   # runs daily (UTC) — change if you want
+    - cron: '0 0 * * *'
   push:
     branches:
-      - main
+      - master
 
 jobs:
   generate:
@@ -18,12 +18,12 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Generate pacman-contribution-graph.svg
-        uses: abozanona/pacman-contribution-graph@main
+        uses: abozanona/pacman-contribution-graph@master
         with:
           github_user_name: JaScriptor
           output: svg
-          theme: github       # options: github, github-dark, gitlab, etc.
-          platform: github    # github or gitlab
+          theme: github
+          platform: github
           speed: 2
           sound: false
 
