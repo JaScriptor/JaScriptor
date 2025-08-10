@@ -3,9 +3,10 @@ name: Generate Pac-Man contribution graph
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 0 * * *'   # Runs daily at midnight UTC
   push:
     branches:
+      - main
       - master
 
 jobs:
@@ -22,8 +23,8 @@ jobs:
         with:
           github_user_name: JaScriptor
           output: svg
-          theme: github
-          platform: github
+          theme: github       # Options: github, github-dark, gitlab, etc.
+          platform: github    # github or gitlab
           speed: 2
           sound: false
 
