@@ -67,9 +67,12 @@
 ###
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/JaScritpro/JaScritpro/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/JaScritpro/JaScritpro/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/JaScritpro/JaScritpro/output/pacman-contribution-graph.svg">
+  <source media="(prefers-color-scheme: light)"
+          srcset="https://raw.githubusercontent.com/JaScriptor/JaScriptor/output/pacman-contribution-graph.svg">
+  <source media="(prefers-color-scheme: dark)"
+          srcset="https://raw.githubusercontent.com/JaScriptor/JaScriptor/output/pacman-contribution-graph-dark.svg">
+  <img alt="Pac-Man contribution graph"
+       src="https://raw.githubusercontent.com/JaScriptor/JaScriptor/output/pacman-contribution-graph.svg">
 </picture>
 
-###
+_Generated with [abozanona/pacman-contribution-graph](https://github.com/abozanona/pacman-contribution-graph)._
