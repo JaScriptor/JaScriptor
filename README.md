@@ -66,6 +66,10 @@
 
 ###
 
+<img src="https://raw.githubusercontent.com/JaScriptor/JaScriptor/output/snake.svg" alt="Snake animation" />
+
+###
+
 <picture>
   <source media="(prefers-color-scheme: light)"
           srcset="https://raw.githubusercontent.com/JaScriptor/JaScriptor/output/pacman-contribution-graph.svg">
