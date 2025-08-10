@@ -75,4 +75,4 @@
        src="https://raw.githubusercontent.com/JaScriptor/JaScriptor/output/pacman-contribution-graph.svg">
 </picture>
 
-_Generated with [abozanona/pacman-contribution-graph](https://github.com/abozanona/pacman-contribution-graph)._
+![Trophies](https://github-profile-trophy.vercel.app/?username=JaScriptor&theme=dracula&no-frame=true&title=Stars,Commits,Repositories,Followers&margin-w=10&margin-h=10)
